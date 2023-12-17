@@ -28,6 +28,10 @@ body {
 h1 {
   font-size: 32px;
   margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: #7FFFD4;
+  color: black;
 }
 
 input[type="text"] {
@@ -68,27 +72,27 @@ button:hover {
 
 
 #loading {
-display: none;
-position: fixed;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-z-index: 999;
-background-color: rgba(255, 255, 255, 0.8);
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .loader {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-border: 8px solid #f3f3f3;
-border-top: 8px solid #3498db;
-border-radius: 50%;
-width: 50px;
-height: 50px;
-animation: spin 2s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
 }
 
 p {
@@ -133,7 +137,7 @@ body {
 
 button {
   background-color: #4caf50;
-  background-image: linear-gradient(135deg, #43c6ac 0%, #191654 100%);
+  background-image: linear-gradient(74deg, #43c6ac 0%, #191654 131%);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -145,4 +149,5 @@ button {
   cursor: pointer;
   border-radius: 4px;
   transition: 0.3s;
+  width: 100%
 }
