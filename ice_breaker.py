@@ -20,7 +20,7 @@ def ice_break(name: str) -> Tuple[PersonIntel, str, str]:
          2. two interesting facts about them
          3. A topic that may interest them
          4. 2 creative Ice breakers to open a conversation with them
-         \n{format_instructions}
+         {format_instructions}
   """
   # reservation_template = '''
   #   Book us a nice table for two this Friday at 6:00 PM. 

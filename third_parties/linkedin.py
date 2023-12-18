@@ -15,7 +15,7 @@ def scrape_linedin_profile(linkedin_profile_url: str):
   #                       headers=headers)
   
   # KTR
-  response = requests.get('https://gist.githubusercontent.com/naveen50003/ae987da32ccbf4597bf7b539ece9fc3e/raw/3cdd62261436b10980ba3ee16dcc643f2af54067/KTR.json') 
+  response = requests.get('https://gist.githubusercontent.com/naveen50003/ae987da32ccbf4597bf7b539ece9fc3e/raw/4fb2df059be8c5f89240afede358875b0bd7b4cf/KTR.json') 
 
   # Navaneeth
   # response = requests.get('https://gist.githubusercontent.com/naveen50003/486402b3bc3c865cefd34b21deed3b2a/raw/929a920f66b89f6dbf6cd2a78a1e73abad1c77d8/navaneeth-karu.json')
